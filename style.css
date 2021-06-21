@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right, #d8e060, #e9d736);
+    font: 400 15pt arial;
+    text-align: center;
+}
+header {
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0%);
+}
+section {
+    background: rgba(243, 243, 243, 30%);
+    color: rgb(255, 255, 255);
+    text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0%);
+    font-weight: 500;
+    font-size: 16pt;
+    border-radius: 10%;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0%); /*Removendo as sobras para deixar o desing mais flat*/
+    padding-bottom: 4%;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-size: 12pt;
+    text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0%);
+    margin-top: 3%;
+}
+#image { /*Quero que todas as imagens tenham esse padrão*/
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+div {
+    text-align: center;
+    padding: 3%;
+}
