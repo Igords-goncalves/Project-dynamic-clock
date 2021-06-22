@@ -10,7 +10,7 @@ header {
     text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0%);
 }
 section {
-    background: rgba(243, 243, 243, 30%);
+    background: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0%);
     font-weight: 500;
@@ -20,15 +20,20 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0%); /*Removendo as sobras para deixar o desing mais flat*/
-    padding-bottom: 4%;
+    padding-bottom: 3%;
 }
 footer {
     color: white;
     text-align: center;
     font-style: normal;
-    font-size: 12pt;
+    font-size: 16pt;
     text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0%);
-    margin-top: 3%;
+    margin-top: 0%;
+}
+#github {
+    width: 30px;
+    height: 30px;
+    opacity: 100%;
 }
 #image { /*Quero que todas as imagens tenham esse padrão*/
     width: 250px;
@@ -39,4 +44,8 @@ footer {
 div {
     text-align: center;
     padding: 3%;
+}
+#greet {
+    font-size: 15pt;
+    letter-spacing: 0.5px;
 }
