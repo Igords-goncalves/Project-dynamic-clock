@@ -16,15 +16,15 @@ function carregar() {
     msg.innerHTML = `${hora}:${min}:${sec}`;
 
     if (hora >= 0 && hora < 12) {
-        img.src = 'manha.jpg';
+        img.src = './img/manha.jpg';
         window.document.body.style.background = 'linear-gradient(to right, #d3f9a7, #b3ae27)';
         greet.innerHTML = 'Bom Dia';
     } else if (hora >= 12 && hora < 18) {
-            img.src = 'tarde.jpg'; //O erro está por aqui
+            img.src = './img/tarde.jpg'; //O erro está por aqui
             window.document.body.style.background = 'linear-gradient(to right, #ffc500, #c21500)';
             greet.innerHTML = 'Boa Tarde';
         } else {
-            img.src = 'noite.jpg';
+            img.src = './img/noite.jpg';
             window.document.body.style.background = 'linear-gradient(to right, #072530, #111129)';
             greet.innerHTML = 'Boa Noite';
         }
