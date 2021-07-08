@@ -19,11 +19,11 @@ Sunrise            | Sunset                      | Night
 <p align=center> Não foi necessário fazer alterções ou igualar o tamanho dos gifs pois os mesmos seriam usados com um "border radius de 50%"
 
 <p align=center> GIF
-<p align=center> - https://tenor.com/
+<p align=center> https://tenor.com/
 
 <p align=center> BACKGROUND 
-<p align=center> - https://www.pexels.com/pt-br/
+<p align=center> https://www.pexels.com/pt-br/
 
 <p align=center> FONTS
-<p align=center> - https://fonts.google.com/specimen/Anton
-<p align=center> - https://fonts.google.com/specimen/Signika
+<p align=center> https://fonts.google.com/specimen/Anton
+<p align=center> https://fonts.google.com/specimen/Signika
