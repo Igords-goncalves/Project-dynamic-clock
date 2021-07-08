@@ -3,30 +3,28 @@ function carregar() {
     var img = window.document.querySelector('img#image');
     var greet = window.document.querySelector('div#greet');
     var data = new Date();
-    var hora = data.getHours() + 10;
+    var hora = data.getHours();
     var min = data.getMinutes();
     var sec = data.getUTCSeconds();
     var timer = setInterval(carregar, 1000);
-    if (min < 10) {
-        min = '0' + min;
-    }
-    if (sec < 10) {
-        sec = '0' + sec;
-    }
+    
+    if (min < 10) {min = '0' + min;}
+    if (sec < 10) {sec = '0' + sec;}
+    if (hora < 10) { hora = '0' + hora;}
     msg.innerHTML = `${hora}:${min}:${sec}`;
 
     if (hora >= 0 && hora < 12) {
-        img.src = './img/manha.jpg';
-        window.document.body.style.background = 'linear-gradient(to right, #d3f9a7, #b3ae27)';
-        greet.innerHTML = 'Bom Dia';
+        img.src = './gif/sunrise.gif';
+        window.document.body.style.background = 'linear-gradient(to right, #d7e060d0, #e9d736d0), url(./img/bgmorning.jpg)';
+        greet.innerHTML = 'Bom Dia!';
     } else if (hora >= 12 && hora < 18) {
-            img.src = './img/tarde.jpg'; //O erro está por aqui
-            window.document.body.style.background = 'linear-gradient(to right, #ffc500, #c21500)';
-            greet.innerHTML = 'Boa Tarde';
+            img.src = './gif/sunset.gif'; //O erro está por aqui
+            window.document.body.style.background = 'linear-gradient(to right, #ffc500dc, #c21500dc), url(./img/bgafternoon.jpg)';
+            greet.innerHTML = 'Boa Tarde!';
         } else {
-            img.src = './img/noite.jpg';
-            window.document.body.style.background = 'linear-gradient(to right, #072530, #111129)';
-            greet.innerHTML = 'Boa Noite';
+            img.src = './gif/night.gif';
+            window.document.body.style.background = 'linear-gradient(to right, #072530d0, #111129d0), url(./img/bgnight.jpg)';
+            greet.innerHTML = 'Boa Noite!';
         }
 }
 /* 
