@@ -20,25 +20,7 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0%); /*Removendo as sobras para deixar o desing mais flat*/
-    padding-bottom: 3%;
-}
-footer {
-    color: white;
-    text-align: center;
-    font-style: normal;
-    font-size: 12pt;
-    text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0%);
-}
-#imgfooter {
-    display: flex;
-    justify-content: center;
-}
-#github {
-    width: 30px;
-}
-#curso {
-    width: 110px;
-    margin-left: 10px;
+    padding-bottom: 1%;
 }
 #image { /*Quero que todas as imagens tenham esse padrão*/
     width: 250px;
@@ -53,4 +35,29 @@ div {
 #greet {
     font-size: 15pt;
     letter-spacing: 0.5px;
+}
+footer {
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-size: 10pt;
+    text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0%);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+#imgfooter {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 10px;
+}
+#github {
+    width: 30px;
+    margin-right: 10px;
+}
+#curso {
+    width: 40px;
+    margin-left: 10px;
 }

@@ -3,7 +3,7 @@ function carregar() {
     var img = window.document.querySelector('img#image');
     var greet = window.document.querySelector('div#greet');
     var data = new Date();
-    var hora = data.getHours();
+    var hora = data.getHours() + 10;
     var min = data.getMinutes();
     var sec = data.getUTCSeconds();
     var timer = setInterval(carregar, 1000);
