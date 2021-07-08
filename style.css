@@ -35,6 +35,11 @@ footer {
     height: 30px;
     opacity: 100%;
 }
+#curso {
+    width: 110px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
 #image { /*Quero que todas as imagens tenham esse padrão*/
     width: 250px;
     height: 250px;
