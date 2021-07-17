@@ -1,5 +1,7 @@
 <h1 align=center>  RELÓGIO DINÂMICO </h1>
 
+<p align=center> Aprecie em: https://igords-goncalves.github.io/Project-dynamic-clock/
+
 ![Morning](https://github.com/Igords-goncalves/Project-dynamic-clock/blob/main/img/screenmorning.jpg)
 
 <p align=center> Esse é um dos projetos do curso de JavaScript do Site www.cursoemvideo.com.br ministrado pelo professor Gustavo Guanabara.
