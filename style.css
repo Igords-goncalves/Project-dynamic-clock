@@ -1,7 +1,19 @@
+/*
+Reduzir otmizar e melhorar o código usando os conceitos:
+- flexbox
+- css grid
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: linear-gradient(to right,#ffc400, #e9d736d0);
     font: 400 15pt arial;
     text-align: center;
+    height: 100vh;
 }
 header {
     color: rgb(255, 255, 255);
@@ -11,7 +23,7 @@ header {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
 }
-section {
+main {
     background: rgba(255, 255, 255, 0.2);
     color: rgb(255, 255, 255);
     text-shadow: 0.1em 0.1em 0.05em rgba(0, 0, 0, 0%);
