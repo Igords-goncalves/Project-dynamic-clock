@@ -16,15 +16,15 @@ function carregar() {
     if (hora >= 0 && hora < 12) {
         img.src = './gif/sunrise.gif';
         window.document.body.style.background = 'linear-gradient(to right, #d7e060d0, #e9d736d0), url(./img/bgmorning.jpg)';
-        greet.innerHTML = 'Bom Dia!';
+        greetings.innerHTML = 'Bom Dia!';
     } else if (hora >= 12 && hora < 18) {
             img.src = './gif/sunset.gif'; //O erro está por aqui
             window.document.body.style.background = 'linear-gradient(to right, #ffc500dc, #c21500dc), url(./img/bgafternoon.jpg)';
-            greet.innerHTML = 'Boa Tarde!';
+            greetings.innerHTML = 'Boa Tarde!';
         } else {
             img.src = './gif/night.gif';
             window.document.body.style.background = 'linear-gradient(to right, #072530d0, #111129d0), url(./img/bgnight.jpg)';
-            greet.innerHTML = 'Boa Noite!';
+            greetings.innerHTML = 'Boa Noite!';
         }
 }
 /* 
