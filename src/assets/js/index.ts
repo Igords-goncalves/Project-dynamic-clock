@@ -27,6 +27,7 @@ function carregar() {
             greetings.innerHTML = 'Boa Noite!';
         }
 }
+
 /* 
 Problemas
 - O relógio precisa ser dinâmico ok

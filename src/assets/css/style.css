@@ -4,6 +4,9 @@ Reduzir otmizar e melhorar o código usando os conceitos:
 - css grid
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +23,7 @@ body {
     height: 100vh;
 }
 header {
-    color: rgb(255, 255, 255);
+    color: var(--font-color);
     margin: 40px 0px;
 }
 h1 {
@@ -34,7 +37,7 @@ main {
     align-items: center;
     width: 500px;
     background: rgba(255, 255, 255, 0.2);
-    color: rgb(255, 255, 255);
+    color: var(--font-color);
     border-radius: 30px;
 }
 #msg, #greetings {

@@ -1,0 +1,25 @@
+{
+  "name": "projeto-01",
+  "version": "1.2.0",
+  "description": "<h1 align=center>  RELÓGIO DINÂMICO </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Igords-goncalves/Project-dynamic-clock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Igords-goncalves/Project-dynamic-clock/issues"
+  },
+  "homepage": "https://github.com/Igords-goncalves/Project-dynamic-clock#readme",
+  "dependencies": {
+    "@types/node": "^17.0.21",
+    "live-server": "^1.2.1"
+  }
+}
