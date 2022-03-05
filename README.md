@@ -1,9 +1,8 @@
 <h1 align=center>  RELÓGIO DINÂMICO V1.2.0 </h1>
 
-<P align="center"> Em sua versão 2.0 de 2022, o código foi totalmente refatorado, migrado para typescript, tambéme está responsivo e com imagens estáticas em lugar dos GIFs<p>
+<P align="center"> Em sua versão V1.2.0 de 2022, o código foi totalmente refatorado, migrado para typescript, tambéme está responsivo e com imagens estáticas em lugar dos GIFs</p>
 
-
-<p align=center> Aprecie em: https://igords-goncalves.github.io/Project-dynamic-clock/
+<p align="center"> Segue abaixo imagens da V1.0.0</p>
 
 ![Morning](https://github.com/Igords-goncalves/Project-dynamic-clock/blob/main/src/assets/img/screenmorning.jpg)
 
