@@ -1,36 +1,42 @@
-function carregar() {
-    var msg = window.document.querySelector('div#msg');
-    var img = window.document.querySelector('img#image');
-    var greet = window.document.querySelector('div#greet');
-    var data = new Date();
-    var hora = data.getHours();
-    var min = data.getMinutes();
-    var sec = data.getUTCSeconds();
-    var timer = setInterval(carregar, 1000);
+function carregar(): any {
+    const msg:any  = document.querySelector('#msg');
+    const img: any = document.querySelector('#image');
+    const greetings: any = document.querySelector('#greetings');
+    const data: any = new Date();
+
+    let hora: any = data.getHours() + 3;
+    let min: any = data.getMinutes();
     
-    if (min < 10) {min = '0' + min;}
-    if (sec < 10) {sec = '0' + sec;}
-    if (hora < 10) { hora = '0' + hora;}
-    msg.innerHTML = `${hora}:${min}:${sec}`;
+    min < 10 ? min = '0' + min : 0
+    hora < 10 ? hora = '0' + hora : 0
+
+    msg.innerHTML = `${hora}:${min}`;
 
     if (hora >= 0 && hora < 12) {
-        img.src = './gif/sunrise.gif';
-        window.document.body.style.background = 'linear-gradient(to right, #d7e060d0, #e9d736d0), url(./img/bgmorning.jpg)';
+        img.src = '../img/manha.jpg';
+
+        document.body.style.background = 
+        `linear-gradient(to right, #d7e060d0, #e9d736d0),
+        url()`;
+
         greetings.innerHTML = 'Bom Dia!';
+        
     } else if (hora >= 12 && hora < 18) {
-            img.src = './gif/sunset.gif'; //O erro está por aqui
-            window.document.body.style.background = 'linear-gradient(to right, #ffc500dc, #c21500dc), url(./img/bgafternoon.jpg)';
+            img.src = '../img/tarde.jpg';
+            
+            document.body.style.background = 
+            `linear-gradient(to right, #ffc500dc, #c21500dc),
+            url(../img/bgafternoon.jpg)`;
+
             greetings.innerHTML = 'Boa Tarde!';
+
         } else {
-            img.src = './gif/night.gif';
-            window.document.body.style.background = 'linear-gradient(to right, #072530d0, #111129d0), url(./img/bgnight.jpg)';
+            img.src = '../img/noite.jpg';
+
+            document.body.style.background = 
+            `linear-gradient(to right, #072530d0, #111129d0),
+            url(../img/bgnight.jpg)`;
+
             greetings.innerHTML = 'Boa Noite!';
         }
 }
-
-/* 
-Problemas
-- O relógio precisa ser dinâmico ok
-- O limite de horas precisa ser de 23:59:59 ok 
-- Uma mensagem de interação com o usuario ok
-*/

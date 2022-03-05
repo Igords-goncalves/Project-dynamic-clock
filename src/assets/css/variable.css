@@ -1,3 +1,10 @@
 :root {
+    --bg-color: linear-gradient(to right,#ffc400, #e9d736d0);
+    --bg-board: rgba(255, 255, 255, 0.2);
     --font-color: #fff; 
+
+    --text-shadow: 3em 2em 3em rgba(255, 255, 255, 0.2);
+
+    --main-font-family: 'Signika', sans-serif;
+    --title-font-family: 'Anton', sans-serif;
 }
