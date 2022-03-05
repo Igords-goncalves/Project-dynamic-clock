@@ -78,7 +78,7 @@ footer {
     margin-left: 8px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 503px) {
     main {
         background: none;
     }
@@ -89,6 +89,7 @@ footer {
         font-family: var(--main-font-family);
         margin: 20px 0px;
         letter-spacing: 0.5px;
+        flex-wrap: wrap;
     }
 
     footer {
